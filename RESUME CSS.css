@@ -1,0 +1,17 @@
+body{
+  background-color:#698269;
+}
+
+p, ul, ol{
+  color:#F1DBBF;
+}
+
+h3{
+  text-align:center;
+  font-family:Georgia;
+  color:#B99B6B;
+  background-color:#AA5656;
+  width: 50%;
+  font-style:italic;
+  line-height: 1em;
+}

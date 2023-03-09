@@ -1,0 +1,20 @@
+h1, h3{
+  color: #B99B6B
+  
+}
+p{
+  color:#F1DBBF;
+  text-align: center; 
+}
+h3{
+  background-color:#AA5656;
+  width: 50%;
+  font-style:italic;
+  line-height: 1em;
+}
+h1{
+  text-align:center;
+  text-transform:capitalize;
+  line-height: 3em;
+}
+
