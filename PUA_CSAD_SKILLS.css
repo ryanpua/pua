@@ -17,4 +17,7 @@ h1{
   text-transform:capitalize;
   line-height: 3em;
 }
-
+a{
+	color:#F1DBBF;
+}
+a:link { text-decoration: none; 
