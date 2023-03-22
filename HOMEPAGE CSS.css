@@ -47,6 +47,12 @@ object-fit: cover;
 	vertical-align:middle;
 	margin-right:5px;
 }
+.icon5{
+	width:40px;
+	height:40px;
+	vertical-align:middle;
+	margin-right:5px;
+}
 a{
 	color:#F1DBBF;
 }
