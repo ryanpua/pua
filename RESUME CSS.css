@@ -24,3 +24,51 @@ h1{
 img {
 object-fit: cover;
 }
+
+.button1 {
+  background-color: #AA5656;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px;
+
+}
+
+.button1:hover {
+  background-color: #8BA48E;
+  color: #8BA48E;
+}
+
+.button2 {
+  background-color: #AA5656;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px;
+
+}
+
+.button2:hover {
+  background-color: #8BA48E;
+  color: #8BA48E;
+}
+
+a.x{
+	color:#F1DBBF;
+}
+a.x:link { text-decoration: none; }
+
+a.y{
+	color:#F1DBBF;
+}
+a.y:link { text-decoration: none; }
