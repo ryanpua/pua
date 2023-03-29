@@ -134,3 +134,10 @@ a.y{
 	color:#F1DBBF;
 }
 a.y:link { text-decoration: none; }
+
+p{
+		color: #B99B6B;
+		font-weight: bold;
+		font-size: 40px;
+	}
+	
