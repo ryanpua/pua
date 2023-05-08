@@ -1,0 +1,92 @@
+.bg {
+  /* The image used */
+  background-image: url("21711762.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.a{
+  background-color:#FF9980;
+  color:#FDF13B;
+}
+.b{
+  background-color:#FF9980;
+  color:#FDF13B;
+}
+.c{
+  background-color:#FF9980;
+  color:#FDF13B;
+}	
+table{
+border:5px solid #303c6c;
+border-collapse:collapse;
+margin:10px auto;  
+}
+td, th{
+border-bottom:1px solid #b4dfe5;
+border-collapse:collapse;
+padding: 7px;
+}
+body{
+font-family: Tahoma;
+color: #273031;
+font-size:1.125em;
+margin-top:100px;
+margin-bottom:80px:
+}
+thead tr{
+  background-color:#FF9980;
+}
+input[type=text],textarea, select{
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+input[type=submit] {
+width: 100%;
+background-color:#B6B6C2;
+color: #273031;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+font-family:verdana;
+font-size:1.125em;
+}
+input[type=submit]:hover {
+background-color: #379683;
+color: white;
+}
+
+input[type=reset] {
+width: 100%;
+background-color:#B6B6C2;
+color: #273031;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+font-family:verdana;
+font-size:1.125em;
+}
+input[type=reset]:hover {
+background-color: #379683;
+color: white;
+}
+textarea{
+  resize:none;
+}
+tr, td{
+background-color: #B2CCCF;
+opacity:0.9;
+}

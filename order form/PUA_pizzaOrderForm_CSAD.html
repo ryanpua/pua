@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title></title>
+<link rel="stylesheet" href="PUA_IMAGES_CSAD/orderform.css">
+</head>
+<body class = "bg">
+  <div>
+<table>
+<form method="post"action="greetings.html">
+<thead>
+<tr>
+ <th colspan = "2" class = "c">Burger Order Form</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><label for="name">Full Name:</label></td>
+<td><input type="text" name="name" size="30" placeholder="Type your name here" maxlength="50" autofocus required></td>
+</tr>
+  <tr>
+   <td><label for="address">Address:</label></td>
+<td><input type="text" name="address" size="30" placeholder="Type your address here" maxlength="50" required></td> 
+  </tr>
+  <tr>
+    <td><label for="contact">Contact Number:</label></td>
+<td><input type="tel" name="contact" size="35" placeholder="Type your contact number here" maxlength="11" required></td>
+  </tr>
+  <tr>
+       <td><label for="email">Email:</label></td>
+<td><input type="email" name="email" size="35" placeholder="Type your email here" maxlength="30" required></td>
+  </tr>
+  <tr>
+   <td><label for="otherins">Place description/Landmarks</label></td>
+        <td>
+          <textarea rows="4" cols="30" required></textarea> 
+  </tr>
+  <tr>
+        <td><label for = "burger">Burger</label></td>
+    <td>
+      <select name="burger" id = "burger" size = "1">
+        <option value ="single">Single Patty</option>
+        <option value ="double">Double Patty</option>
+      </select>
+  </tr>
+  <tr>
+    <td><label for = "addons">Inclusions:</label></td>
+    <td>
+      <input type="checkbox" id="cheese" name="inclusions" value = "cheese">
+      <label for = "cheese">Cheese</label>
+      <input type="checkbox" id="coleslaw" name="inclusions" value = "coleslaw">
+      <label for = "coleslaw">Coleslaw</label><br>
+      <input type="checkbox" id="tomato" name="inclusions" value = "tomato">
+      <label for = "tomato">Tomato</label>
+      <input type="checkbox" id="onion" name="inclusions" value = "onion">
+      <label for = "onion">Onions</label>
+      <br>
+            <input type="checkbox" id="cucumber" name="inclusions" value = "cucumber">
+      <label for = "cucumber">Cucumber</label>
+            <input type="checkbox" id="bacon" name="inclusions" value = "bacon">
+      <label for = "bacon">Bacon</label>
+    </td>
+  </tr>
+  <tr>
+    <td><label for = "bun">Choice of buns</label></td>
+    <td>
+      <select name="bun" id = "bun" size = "1">
+        <option value ="white">White Bun</option>
+        <option value ="wheat">Wheat Bun</option>
+        <option value ="honey">Honey Oat Bun</option>
+        <option value ="sugarfree">Sugar-Free Bun</option>
+      </select>
+  </tr>
+  <tr>
+    <td><label for="quantity">Quantity:</label></td>
+<td><input type="number" name="quantity" size="30" placeholder="1" min = "1" max = "50" required></td>
+  </tr>
+  <tr>
+ <th class = "a" colspan = "2">Pasta</th>
+  </tr>
+    <tr>
+        <td><label for = "pasta">Pasta Sauce</label></td>
+    <td>
+      <select name="pasta" id = "pasta" size = "1">
+        <option value ="carbonara">Carbonara</option>
+        <option value ="pesto">Pesto</option>
+        <option value ="spaghetti">Spaghetti</option>
+      </select>
+  </tr>
+  <tr>
+     <td><label for = "pastaadons">Pasta Inclusions:</label></td>
+    <td>
+      <input type="checkbox" id="xtracheese" name="pastaad" value = "xtracheese">
+      <label for = "xtracheese">Extra Cheese</label>
+      <input type="checkbox" id="xtrasauce" name="pastaad" value = "xtrasauce">
+      <label for = "xtrasauce">Extra Sauce</label><br>
+      <input type="checkbox" id="xtrapasta" name="pastaad" value = "xtrapasta">
+      <label for = "xtrapasta">Extra Pasta</label>
+      <input type="checkbox" id="galicbread" name="pastaad" value = "galicbread">
+      <label for = "galicbread">Garlic Bread</label>
+      <br>
+      <input type="checkbox" id="vegsalad" name="pastaad" value = "vegsalad">
+      <label for = "vegsalad">Vegetable Salad</label>
+  </tr>
+<tr>
+  <td><label for="boxquantity">Quantity(per box):</label></td>
+<td><input type="number" name="boxquantity" placeholder="1" min = "1" max = "50" required></td>
+  </tr>
+ <tr>
+   <th class = "b" colspan = "2">Fries and Drinks</th>
+  </tr>
+  <tr>
+     <td><label for = "fries">Fries Size</label></td>
+    <td>
+      <select name="fries" id = "fries" size = "1">
+        <option value ="small">Small</option>
+        <option value ="medium">Medium</option>
+        <option value ="large">Large</option>
+      </select>
+  </tr>
+  <tr>
+      <td><label for="friesflavor">Flavor:</label></td>
+      <td><input type="radio" name="flavor" id="bbq" value="bbq">
+      <label for="bbq">BBQ</label>
+      <input type="radio" name="flavor" id="fcheese" value="fcheese">
+      <label for="fcheese">Cheese</label>
+      <input type="radio" name="flavor" id="sourc" value="sourc">
+      <label for="sourc">Sour Cream</label>
+    </td>  
+  </tr>
+  <tr>
+  <td><label for="friesquantity">Fries Quantity:</label></td>
+<td><input type="number" name="friesquantity" placeholder="1" min = "1" max = "50" required></td>
+  </tr>
+    <tr>
+     <td><label for = "drinks">Drinks</label></td>
+    <td>
+      <select name="drinks" id = "drinks" size = "1">
+        <option value ="coke">Coke</option>
+        <option value ="icedtea">Iced Tea</option>
+        <option value ="sprite">Sprite</option>
+        <option value ="royal">Sprite</option>
+        <option value ="pineapple">Pineapple Juice</option>
+        <option value ="rootbeer">Rootbeer</option>
+      </select>
+  </tr>
+  <tr>
+    <td><label for="drinksize">Drink Size:</label></td>
+      <td><input type="radio" name="drink" id="smalldrink" value="smalldrink">
+      <label for="smalldrink">Small</label>
+      <input type="radio" name="drink" id="mediumdrink" value="mediumdrink">
+      <label for="mediumdrink">Medium</label>
+      <input type="radio" name="drink" id="largedrink" value="largedrink">
+        <label for="largedrink">Large</label></td>
+  </tr>
+  <tr>
+    <td><label for="drinksquantity">Drink Quantity:</label></td>
+<td><input type="number" name="drinksquantity" placeholder="1" min = "1" max = "50" required></td>
+  </tr>
+ <tr>
+   <td><label for="deliveryoption">Delivery Option:</label></td>
+      <td><input type="radio" name="delivery" id="deliver" value="deliver">
+      <label for="deliver">Delivery</label>
+      <input type="radio" name="delivery" id="pickup" value="pickup">
+        <label for="pickup">Pick-up</label></td>
+  </tr>
+      <tr>
+        <td><label for="feedcack">Feedback</label></td>
+        <td>
+          <textarea rows="8" cols="25"></textarea>
+      </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <th ><input type="reset" id="btn2" value="Reset"></th>
+      <th ><input type="submit" id="btn1" value="Submit"></th> 
+    </tr>
+  </tfoot>
+  </form>
+  </table>
+  </div>
+  </body>
+  </html>
